@@ -4,17 +4,17 @@ import "./GymSlider.css";
 const slides = [
   {
     id: 1,
-    url: "/images/gymslider/invictus-go1.png",
+    url: "/wellify/images/gymslider/invictus-go1.png",
     link: "https://invictusgo.kz",
   },
   {
     id: 2,
-    url: "/images/gymslider/iron-club1.png",
+    url: "/wellify/images/gymslider/iron-club1.png",
     link: "https://ironclub.kz/gym",
   },
   {
     id: 3,
-    url: "/images/gymslider/underground1.png",
+    url: "/wellify/images/gymslider/underground1.png",
     link: "https://undergroundgym.kz",
   },
 ];

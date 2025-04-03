@@ -3,7 +3,7 @@
     {
       "id": "weight-loss",
       "title": "Похудение",
-      "image": "/images/diet/diet1.svg",
+      "image": "/wellify/images/diet/diet1.svg",
       "calories": "~1500-1700 ккал/день",
       "description": "Дефицит калорий, больше белка и клетчатки",
       "meals": [
@@ -11,9 +11,9 @@
           "title": "Завтрак",
           "calories": "320 ккал",
           "items": [
-            { "name": "Омлет 2 яйца", "image": "/images/diet/omelet.jpg" },
-            { "name": "Шпинат", "image": "/images/diet/spinach.jpg" },
-            { "name": "Цельнозерновой тост", "image": "/images/diet/toast.jpg" }
+            { "name": "Омлет 2 яйца", "image": "/wellify/images/diet/omelet.jpg" },
+            { "name": "Шпинат", "image": "/wellify/images/diet/spinach.jpg" },
+            { "name": "Цельнозерновой тост", "image": "/wellify/images/diet/toast.jpg" }
           ]
         },
         {
@@ -22,9 +22,9 @@
           "items": [
             {
               "name": "Греческий йогурт (150 г)",
-              "image": "/images/diet/yogurt.jpg"
+              "image": "/wellify/images/diet/yogurt.jpg"
             },
-            { "name": "Орехи (15 г)", "image": "/images/diet/nuts.jpg" }
+            { "name": "Орехи (15 г)", "image": "/wellify/images/diet/nuts.jpg" }
           ]
         },
         {
@@ -33,18 +33,18 @@
           "items": [
             {
               "name": "Куриная грудка (100 г)",
-              "image": "/images/diet/chicken.jpg"
+              "image": "/wellify/images/diet/chicken.jpg"
             },
-            { "name": "Киноа (80 г)", "image": "/images/diet/quinoa.jpg" },
-            { "name": "Овощи", "image": "/images/diet/vegetables.jpg" }
+            { "name": "Киноа (80 г)", "image": "/wellify/images/diet/quinoa.jpg" },
+            { "name": "Овощи", "image": "/wellify/images/diet/vegetables.jpg" }
           ]
         },
         {
           "title": "Перекус",
           "calories": "150 ккал",
           "items": [
-            { "name": "Сельдерей", "image": "/images/diet/celery.jpg" },
-            { "name": "Хумус (30 г)", "image": "/images/diet/hummus.jpg" }
+            { "name": "Сельдерей", "image": "/wellify/images/diet/celery.jpg" },
+            { "name": "Хумус (30 г)", "image": "/wellify/images/diet/hummus.jpg" }
           ]
         },
         {
@@ -53,13 +53,13 @@
           "items": [
             {
               "name": "Запеченная рыба (100 г)",
-              "image": "/images/diet/fish.jpg"
+              "image": "/wellify/images/diet/fish.jpg"
             },
             {
               "name": "Брокколи (100 г)",
-              "image": "/images/diet/broccoli.jpg"
+              "image": "/wellify/images/diet/broccoli.jpg"
             },
-            { "name": "Киноа (50 г)", "image": "/images/diet/quinoa.jpg" }
+            { "name": "Киноа (50 г)", "image": "/wellify/images/diet/quinoa.jpg" }
           ]
         }
       ]
@@ -67,7 +67,7 @@
     {
       "id": "weight-gain",
       "title": "Набор массы",
-      "image": "/images/diet/diet2.svg",
+      "image": "/wellify/images/diet/diet2.svg",
       "calories": "~2500-2800 ккал/день",
       "description": "Профицит калорий, больше углеводов",
       "meals": [
@@ -75,11 +75,11 @@
           "title": "Завтрак",
           "calories": "550 ккал",
           "items": [
-            { "name": "Овсянка (100 г)", "image": "/images/diet/oatmeal.jpg" },
-            { "name": "Банан", "image": "/images/diet/banana.jpg" },
+            { "name": "Овсянка (100 г)", "image": "/wellify/images/diet/oatmeal.jpg" },
+            { "name": "Банан", "image": "/wellify/images/diet/banana.jpg" },
             {
               "name": "Арахисовая паста (20 г)",
-              "image": "/images/diet/peanut-butter.jpg"
+              "image": "/wellify/images/diet/peanut-butter.jpg"
             }
           ]
         },
@@ -87,18 +87,18 @@
           "title": "Перекус",
           "calories": "350 ккал",
           "items": [
-            { "name": "Творог (150 г)", "image": "/images/diet/tvorog.jpg" },
-            { "name": "Мед (10 г)", "image": "/images/diet/honey.jpg" },
-            { "name": "Орехи (20 г)", "image": "/images/diet/nuts.jpg" }
+            { "name": "Творог (150 г)", "image": "/wellify/images/diet/tvorog.jpg" },
+            { "name": "Мед (10 г)", "image": "/wellify/images/diet/honey.jpg" },
+            { "name": "Орехи (20 г)", "image": "/wellify/images/diet/nuts.jpg" }
           ]
         },
         {
           "title": "Обед",
           "calories": "600 ккал",
           "items": [
-            { "name": "Говядина (150 г)", "image": "/images/diet/beef.jpg" },
-            { "name": "Картофель (150 г)", "image": "/images/diet/potato.jpg" },
-            { "name": "Овощи", "image": "/images/diet/vegetables.jpg" }
+            { "name": "Говядина (150 г)", "image": "/wellify/images/diet/beef.jpg" },
+            { "name": "Картофель (150 г)", "image": "/wellify/images/diet/potato.jpg" },
+            { "name": "Овощи", "image": "/wellify/images/diet/vegetables.jpg" }
           ]
         },
         {
@@ -107,18 +107,18 @@
           "items": [
             {
               "name": "Протеиновый коктейль",
-              "image": "/images/diet/protein-shake.jpg"
+              "image": "/wellify/images/diet/protein-shake.jpg"
             },
-            { "name": "Яблоко", "image": "/images/diet/apple.jpg" }
+            { "name": "Яблоко", "image": "/wellify/images/diet/apple.jpg" }
           ]
         },
         {
           "title": "Ужин",
           "calories": "600 ккал",
           "items": [
-            { "name": "Лосось (120 г)", "image": "/images/diet/salmon.jpg" },
-            { "name": "Рис (100 г)", "image": "/images/diet/rice.jpg" },
-            { "name": "Авокадо (50 г)", "image": "/images/diet/avocado.jpg" }
+            { "name": "Лосось (120 г)", "image": "/wellify/images/diet/salmon.jpg" },
+            { "name": "Рис (100 г)", "image": "/wellify/images/diet/rice.jpg" },
+            { "name": "Авокадо (50 г)", "image": "/wellify/images/diet/avocado.jpg" }
           ]
         }
       ]
@@ -126,7 +126,7 @@
     {
       "id": "weight-maintenance",
       "title": "Поддержание веса",
-      "image": "/images/diet/diet3.svg",
+      "image": "/wellify/images/diet/diet3.svg",
       "calories": "~2000-2200 ккал/день",
       "description": "Баланс БЖУ, умеренное количество углеводов",
       "meals": [
@@ -134,26 +134,26 @@
           "title": "Завтрак",
           "calories": "400 ккал",
           "items": [
-            { "name": "Яичница (2 яйца)", "image": "/images/diet/omelet.jpg" },
-            { "name": "Сыр (20 г)", "image": "/images/diet/cheese.jpg" },
-            { "name": "Цельнозерновой тост", "image": "/images/diet/toast.jpg" }
+            { "name": "Яичница (2 яйца)", "image": "/wellify/images/diet/omelet.jpg" },
+            { "name": "Сыр (20 г)", "image": "/wellify/images/diet/cheese.jpg" },
+            { "name": "Цельнозерновой тост", "image": "/wellify/images/diet/toast.jpg" }
           ]
         },
         {
           "title": "Перекус",
           "calories": "250 ккал",
           "items": [
-            { "name": "Кефир (200 мл)", "image": "/images/diet/kefir.jpg" },
-            { "name": "Орехи (15 г)", "image": "/images/diet/nuts.jpg" }
+            { "name": "Кефир (200 мл)", "image": "/wellify/images/diet/kefir.jpg" },
+            { "name": "Орехи (15 г)", "image": "/wellify/images/diet/nuts.jpg" }
           ]
         },
         {
           "title": "Обед",
           "calories": "550 ккал",
           "items": [
-            { "name": "Индейка (120 г)", "image": "/images/diet/turkey.jpg" },
-            { "name": "Гречка (100 г)", "image": "/images/diet/buckwheat.jpg" },
-            { "name": "Салат", "image": "/images/diet/salad.jpg" }
+            { "name": "Индейка (120 г)", "image": "/wellify/images/diet/turkey.jpg" },
+            { "name": "Гречка (100 г)", "image": "/wellify/images/diet/buckwheat.jpg" },
+            { "name": "Салат", "image": "/wellify/images/diet/salad.jpg" }
           ]
         },
         {
@@ -162,7 +162,7 @@
           "items": [
             {
               "name": "Протеиновый батончик",
-              "image": "/images/diet/protein-bar.jpg"
+              "image": "/wellify/images/diet/protein-bar.jpg"
             }
           ]
         },
@@ -172,9 +172,9 @@
           "items": [
             {
               "name": "Запеченная курица (120 г)",
-              "image": "/images/diet/baked-chicken.jpg"
+              "image": "/wellify/images/diet/baked-chicken.jpg"
             },
-            { "name": "Овощи (150 г)", "image": "/images/diet/vegetables.jpg" }
+            { "name": "Овощи (150 г)", "image": "/wellify/images/diet/vegetables.jpg" }
           ]
         }
       ]

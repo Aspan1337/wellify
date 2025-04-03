@@ -15,7 +15,7 @@ const Workout = () => {
       <div className="workout-card">
         <div className="workout-image-container">
           <img
-            src="/images/workout/workout.svg"
+            src="/wellify/images/workout/workout.svg"
             alt="Сет тренировок Энергия дома"
             className="workout-image"
           />
