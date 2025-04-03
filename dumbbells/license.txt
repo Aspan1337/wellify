@@ -1,0 +1,11 @@
+Model Information:
+* title:	20 Lbs Dumbbells
+* source:	https://sketchfab.com/3d-models/20-lbs-dumbbells-9f1520a479b34af7bc2c2fbcc2f362f5
+* author:	Anthony Yanez (https://sketchfab.com/paulyanez)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "20 Lbs Dumbbells" (https://sketchfab.com/3d-models/20-lbs-dumbbells-9f1520a479b34af7bc2c2fbcc2f362f5) by Anthony Yanez (https://sketchfab.com/paulyanez) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
