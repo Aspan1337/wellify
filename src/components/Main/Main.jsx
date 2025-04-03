@@ -8,7 +8,7 @@ import { OrbitControls } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const Dumbbells3d = () => {
-  const gltf = useLoader(GLTFLoader, "/dumbbells/scene.gltf");
+  const gltf = useLoader(GLTFLoader, "/wellify/dumbbells/scene.gltf");
   const dumbbellsRef = useRef();
   useFrame(() => {
     if (dumbbellsRef.current) {
