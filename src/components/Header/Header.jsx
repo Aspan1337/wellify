@@ -55,7 +55,7 @@ const Header = () => {
         <div className="nav-left">
           <div className="logo">
             <img
-              src="/wellifylogo1.png"
+              src="/wellify/wellifylogo1.png"
               alt="Wellify Logo"
               onClick={() => scrollToSection("main")}
               className="logo-img"

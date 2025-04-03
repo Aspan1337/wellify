@@ -32,7 +32,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-left">
           <div className="footer-logo">
-            <img src="/wellifylogo1.png" alt="Wellify Logo" />
+            <img src="/wellify/wellifylogo1.png" alt="Wellify Logo" />
           </div>
           <p>© 2025 Wellify</p>
           <p>Все права защищены</p>
