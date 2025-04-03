@@ -1,0 +1,236 @@
+.warmup-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Montserrat";
+  margin-bottom: 30px;
+}
+
+.warmup-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.warmup-form-container {
+  margin-bottom: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #f9f9fb;
+}
+
+.warmup-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.warmup-form-group {
+  flex: 1;
+  min-width: 250px;
+}
+
+.warmup-form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.warmup-form-group input,
+.warmup-form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.warmup-radio-group {
+  display: flex;
+  gap: 20px;
+}
+
+.warmup-radio-group label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.warmup-radio-group input {
+  margin-right: 10px;
+  width: auto;
+}
+
+.warmup-input-with-unit {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.warmup-input-with-unit input {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.warmup-unit {
+  position: absolute;
+  right: 15px;
+  color: #777;
+  font-size: 14px;
+}
+
+.warmup-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.warmup-submit-button,
+.warmup-clear-button {
+  flex: 1;
+  max-width: 200px;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+.warmup-submit-button {
+  background-color: #4169e1;
+  color: white;
+}
+
+.warmup-submit-button:hover {
+  background-color: #3158cc;
+}
+
+.warmup-clear-button {
+  background-color: #6495ed;
+  color: white;
+}
+
+.warmup-clear-button:hover {
+  background-color: #5485dd;
+}
+
+.warmup-workouts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.warmup-workout-item {
+  margin-bottom: 15px;
+}
+
+.warmup-workout-button {
+  width: 100%;
+  max-width: 250px;
+  padding: 12px;
+  background-color: #4169e1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  display: block;
+}
+
+.warmup-workout-button:hover {
+  background-color: #3158cc;
+}
+
+.warmup-workout-details {
+  margin-top: 20px;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #f9f9fb;
+}
+
+.warmup-workout-description {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.warmup-exercises-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.warmup-exercise-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.warmup-exercise-item:last-child {
+  border-bottom: none;
+}
+
+.warmup-exercise-item h4 {
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.warmup-exercise-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.warmup-exercise-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.warmup-exercise-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.warmup-exercise-info p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.warmup-exercise-parameters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.warmup-exercise-parameters span {
+  background-color: #e9ecef;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .warmup-form-group {
+    flex: 100%;
+  }
+
+  .warmup-exercise-details {
+    flex-direction: column;
+  }
+
+  .warmup-exercise-image {
+    width: 100%;
+    height: auto;
+  }
+}

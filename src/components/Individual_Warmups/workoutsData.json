@@ -1,0 +1,457 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "name": "Базовая силовая тренировка",
+      "type": "strength",
+      "suitableFor": ["male", "female"],
+      "experienceLevel": ["beginner", "intermediate"],
+      "goals": ["muscleGain", "health"],
+      "contraindications": ["high blood pressure", "back injury"],
+      "description": "Базовая силовая тренировка для общего развития мышц всего тела. Подходит для начинающих и людей со средним уровнем подготовки.",
+      "exercises": [
+        {
+          "name": "Приседания с собственным весом",
+          "description": "Базовое упражнение для развития мышц ног и ягодиц. Держите спину прямой и опускайтесь, пока бедра не станут параллельны полу.",
+          "imageUrl": "/images/individual_warmups/squats.png",
+          "reps": "15-20",
+          "sets": "3",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Отжимания от пола",
+          "description": "Классическое упражнение для развития мышц груди, плеч и трицепсов. Держите тело прямым от головы до пяток.",
+          "imageUrl": "/images/individual_warmups/pushups.png",
+          "reps": "10-15",
+          "sets": "3",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Планка",
+          "description": "Статическое упражнение для укрепления кора и мышц всего тела. Удерживайте тело прямым, не прогибайтесь в пояснице.",
+          "imageUrl": "/images/individual_warmups/plank.png",
+          "reps": null,
+          "sets": "3",
+          "duration": "30-60 сек",
+          "weight": null
+        },
+        {
+          "name": "Подтягивания нижним хватом с резинкой",
+          "description": "Упражнение для развития мышц спины и бицепсов. Используйте резинку для облегчения, если не можете выполнить чистое подтягивание.",
+          "imageUrl": "/images/individual_warmups/assisted_pullups.png",
+          "reps": "8-12",
+          "sets": "3",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Выпады",
+          "description": "Упражнение для развития мышц ног и улучшения баланса. Делайте шаг вперед и опускайтесь, пока колено задней ноги почти не коснется пола.",
+          "imageUrl": "/images/individual_warmups/lunges.png",
+          "reps": "10-12 на каждую ногу",
+          "sets": "3",
+          "duration": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Кардио тренировка с интервалами",
+      "type": "cardio",
+      "suitableFor": ["male", "female"],
+      "experienceLevel": ["beginner", "intermediate", "advanced"],
+      "goals": ["weightLoss", "endurance", "health"],
+      "contraindications": ["high blood pressure", "knee injury"],
+      "description": "Интервальная кардио-тренировка для сжигания жира и улучшения выносливости. Чередование высокоинтенсивных и низкоинтенсивных периодов нагрузки.",
+      "exercises": [
+        {
+          "name": "Разминка: Бег на месте",
+          "description": "Разогрев перед основной тренировкой. Бег на месте в умеренном темпе.",
+          "imageUrl": "/images/individual_warmups/jogging.png",
+          "reps": null,
+          "sets": "1",
+          "duration": "3 минуты",
+          "weight": null
+        },
+        {
+          "name": "Прыжки с разведением рук и ног (Jumping Jacks)",
+          "description": "Классическое кардио-упражнение. Прыгайте, разводя ноги и поднимая руки над головой, затем возвращайтесь в исходное положение.",
+          "imageUrl": "/images/individual_warmups/jumping_jacks.png",
+          "reps": null,
+          "sets": "5",
+          "duration": "30 секунд активно, 15 секунд отдых",
+          "weight": null
+        },
+        {
+          "name": "Берпи",
+          "description": "Комплексное упражнение, сочетающее приседание, планку, отжимание и прыжок. Отличное упражнение для повышения пульса и работы всех групп мышц.",
+          "imageUrl": "/images/individual_warmups/burpees.png",
+          "reps": null,
+          "sets": "5",
+          "duration": "30 секунд активно, 15 секунд отдых",
+          "weight": null
+        },
+        {
+          "name": "Альпинист",
+          "description": "Динамическое упражнение для кора и кардио. Из положения планки поочередно подтягивайте колени к груди.",
+          "imageUrl": "/images/individual_warmups/mountain_climbers.png",
+          "reps": null,
+          "sets": "5",
+          "duration": "30 секунд активно, 15 секунд отдых",
+          "weight": null
+        },
+        {
+          "name": "Скейтер (конькобежец)",
+          "description": "Прыжки из стороны в сторону с имитацией движений конькобежца. Развивает координацию и боковую устойчивость.",
+          "imageUrl": "/images/individual_warmups/skaters.png",
+          "reps": null,
+          "sets": "5",
+          "duration": "30 секунд активно, 15 секунд отдых",
+          "weight": null
+        },
+        {
+          "name": "Заминка: растяжка",
+          "description": "Комплекс упражнений на растяжку для снижения пульса и восстановления мышц.",
+          "imageUrl": "/images/individual_warmups/stretching.png",
+          "reps": null,
+          "sets": "1",
+          "duration": "5 минут",
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Тренировка верхней части тела",
+      "type": "strength",
+      "suitableFor": ["male", "female"],
+      "experienceLevel": ["intermediate", "advanced"],
+      "goals": ["muscleGain", "strength"],
+      "contraindications": ["shoulder injury", "high blood pressure"],
+      "description": "Силовая тренировка, направленная на развитие мышц верхней части тела: груди, спины, плеч и рук.",
+      "exercises": [
+        {
+          "name": "Жим гантелей лежа",
+          "description": "Базовое упражнение для развития грудных мышц. Лежа на скамье, опускайте гантели до уровня груди и выжимайте вверх.",
+          "imageUrl": "/images/individual_warmups/dumbbell_press.png",
+          "reps": "10-12",
+          "sets": "4",
+          "duration": null,
+          "weight": "Средний"
+        },
+        {
+          "name": "Тяга гантели в наклоне",
+          "description": "Упражнение для мышц спины. Стоя в наклоне, подтягивайте гантель к поясу, сводя лопатки.",
+          "imageUrl": "/images/individual_warmups/one_arm_row.png",
+          "reps": "10-12 на каждую руку",
+          "sets": "3",
+          "duration": null,
+          "weight": "Средний"
+        },
+        {
+          "name": "Жим гантелей сидя",
+          "description": "Упражнение для развития дельтовидных мышц плеч. Сидя, выжимайте гантели от уровня плеч вверх.",
+          "imageUrl": "/images/individual_warmups/shoulder_press.png",
+          "reps": "10-12",
+          "sets": "3",
+          "duration": null,
+          "weight": "Средний"
+        },
+        {
+          "name": "Сгибание рук на бицепс",
+          "description": "Классическое упражнение для бицепсов. Сгибайте руки с гантелями, не двигая локтями.",
+          "imageUrl": "/images/individual_warmups/bicep_curls.png",
+          "reps": "12-15",
+          "sets": "3",
+          "duration": null,
+          "weight": "Легкий-средний"
+        },
+        {
+          "name": "Разгибание рук на трицепс",
+          "description": "Упражнение для трицепсов. Наклонив корпус вперед, разгибайте руку с гантелей назад.",
+          "imageUrl": "/images/individual_warmups/tricep_extension.png",
+          "reps": "12-15",
+          "sets": "3",
+          "duration": null,
+          "weight": "Легкий-средний"
+        },
+        {
+          "name": "Подтягивания",
+          "description": "Базовое упражнение для спины и бицепсов. Если не можете выполнить чистые подтягивания, используйте резинку или тренажер.",
+          "imageUrl": "/images/individual_warmups/pullups.png",
+          "reps": "8-10",
+          "sets": "3",
+          "duration": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Тренировка нижней части тела",
+      "type": "strength",
+      "suitableFor": ["male", "female"],
+      "experienceLevel": ["intermediate", "advanced"],
+      "goals": ["muscleGain", "strength"],
+      "contraindications": ["knee injury", "hip problems"],
+      "description": "Силовая тренировка, направленная на развитие мышц нижней части тела: ягодиц, квадрицепсов, бицепсов бедра и икр.",
+      "exercises": [
+        {
+          "name": "Приседания с гантелями",
+          "description": "Базовое упражнение для ног и ягодиц. Держите гантели у плеч или вдоль тела, приседайте до параллели бедер с полом.",
+          "imageUrl": "/images/individual_warmups/dumbbell_squats.png",
+          "reps": "12-15",
+          "sets": "4",
+          "duration": null,
+          "weight": "Средний-тяжелый"
+        },
+        {
+          "name": "Румынская тяга с гантелями",
+          "description": "Упражнение для задней поверхности бедра и ягодиц. Наклоняйтесь вперед с прямой спиной, опуская гантели вдоль ног.",
+          "imageUrl": "/images/individual_warmups/romanian_deadlift.png",
+          "reps": "10-12",
+          "sets": "3",
+          "duration": null,
+          "weight": "Средний-тяжелый"
+        },
+        {
+          "name": "Выпады с гантелями",
+          "description": "Упражнение для квадрицепсов и ягодиц. Делайте шаги вперед или назад, держа гантели в руках.",
+          "imageUrl": "/images/individual_warmups/dumbbell_lunges.png",
+          "reps": "10 на каждую ногу",
+          "sets": "3",
+          "duration": null,
+          "weight": "Средний"
+        },
+        {
+          "name": "Подъемы на носки",
+          "description": "Упражнение для икроножных мышц. Поднимайтесь на носки, удерживая гантели в руках.",
+          "imageUrl": "/images/individual_warmups/calf_raises.png",
+          "reps": "15-20",
+          "sets": "3",
+          "duration": null,
+          "weight": "Легкий-средний"
+        },
+        {
+          "name": "Разгибание ног на блоке",
+          "description": "Изолирующее упражнение для квадрицепсов. Сидя на тренажере, разгибайте ноги до полного выпрямления.",
+          "imageUrl": "/images/individual_warmups/leg_extensions.png",
+          "reps": "12-15",
+          "sets": "3",
+          "duration": null,
+          "weight": "Средний"
+        },
+        {
+          "name": "Ягодичный мостик",
+          "description": "Упражнение для ягодичных мышц. Лежа на спине, поднимайте таз вверх, сжимая ягодицы в верхней точке.",
+          "imageUrl": "/images/individual_warmups/glute_bridge.png",
+          "reps": "15-20",
+          "sets": "3",
+          "duration": null,
+          "weight": "Без веса или с легким отягощением"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Функциональная тренировка всего тела",
+      "type": "mixed",
+      "suitableFor": ["male", "female"],
+      "experienceLevel": ["beginner", "intermediate", "advanced"],
+      "goals": ["health", "endurance", "weightLoss"],
+      "contraindications": [],
+      "description": "Функциональная тренировка, направленная на улучшение общей физической подготовки и развитие функциональной силы. Подходит для людей любого уровня подготовки.",
+      "exercises": [
+        {
+          "name": "Бурпи с прыжком",
+          "description": "Комплексное упражнение для всего тела. Из положения стоя опуститесь в упор лежа, сделайте отжимание, подтяните ноги к груди и выпрыгните вверх.",
+          "imageUrl": "/images/individual_warmups/burpees_jump.png",
+          "reps": "10-15",
+          "sets": "3",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Тяга гири к подбородку",
+          "description": "Упражнение для плеч и верхней части спины. Тяните гирю вертикально вверх до уровня подбородка.",
+          "imageUrl": "/images/individual_warmups/kettlebell_upright_row.png",
+          "reps": "12-15",
+          "sets": "3",
+          "duration": null,
+          "weight": "Средний"
+        },
+        {
+          "name": "Приседания с выпрыгиванием",
+          "description": "Взрывное упражнение для ног. Из положения приседа выпрыгивайте вверх, мягко приземляясь на полусогнутые ноги.",
+          "imageUrl": "/images/individual_warmups/jump_squats.png",
+          "reps": "12-15",
+          "sets": "3",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Турецкий подъем",
+          "description": "Комплексное упражнение для всего тела. Из положения лежа на спине с гирей в руке постепенно поднимайтесь до положения стоя.",
+          "imageUrl": "/images/individual_warmups/turkish_getup.png",
+          "reps": "5 на каждую сторону",
+          "sets": "3",
+          "duration": null,
+          "weight": "Легкий-средний"
+        },
+        {
+          "name": "Махи гирей",
+          "description": "Динамическое упражнение для ягодиц, задней поверхности бедра и спины. Раскачивайте гирю между ног и вперед до уровня плеч.",
+          "imageUrl": "/images/individual_warmups/kettlebell_swings.png",
+          "reps": "15-20",
+          "sets": "3",
+          "duration": null,
+          "weight": "Средний"
+        },
+        {
+          "name": "Боковые выпады",
+          "description": "Упражнение для внутренней и внешней поверхности бедра. Делайте шаги в сторону, приседая на одну ногу.",
+          "imageUrl": "/images/individual_warmups/side_lunges.png",
+          "reps": "10 на каждую сторону",
+          "sets": "3",
+          "duration": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Тренировка на гибкость и мобильность",
+      "type": "flexibility",
+      "suitableFor": ["male", "female"],
+      "experienceLevel": ["beginner", "intermediate", "advanced"],
+      "goals": ["health", "flexibility"],
+      "contraindications": [],
+      "description": "Комплекс упражнений для улучшения гибкости и подвижности суставов. Идеально подходит как для самостоятельной тренировки, так и в качестве дополнения к силовым или кардио тренировкам.",
+      "exercises": [
+        {
+          "name": "Динамическая растяжка плеч",
+          "description": "Круговые движения руками вперед и назад для улучшения подвижности плечевых суставов.",
+          "imageUrl": "/images/individual_warmups/shoulder_circles.png",
+          "reps": "10 в каждую сторону",
+          "sets": "2",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Поза кошки-коровы",
+          "description": "Упражнение для гибкости позвоночника. Чередуйте прогиб и округление спины в позиции на четвереньках.",
+          "imageUrl": "/images/individual_warmups/cat_cow.png",
+          "reps": "10 циклов",
+          "sets": "2",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Поза голубя",
+          "description": "Растяжка для тазобедренных суставов и ягодиц. Одна нога согнута под собой, вторая выпрямлена назад.",
+          "imageUrl": "/images/individual_warmups/pigeon_pose.png",
+          "reps": null,
+          "sets": "2",
+          "duration": "30-60 секунд на каждую сторону",
+          "weight": null
+        },
+        {
+          "name": "Растяжка задней поверхности бедра",
+          "description": "Сидя на полу, наклоняйтесь к прямой ноге, стараясь дотянуться руками до стопы.",
+          "imageUrl": "/images/individual_warmups/hamstring_stretch.png",
+          "reps": null,
+          "sets": "2",
+          "duration": "30 секунд на каждую ногу",
+          "weight": null
+        },
+        {
+          "name": "Растяжка квадрицепсов",
+          "description": "Стоя на одной ноге, согните другую ногу и возьмитесь за стопу рукой, притягивая пятку к ягодице.",
+          "imageUrl": "/images/individual_warmups/quad_stretch.png",
+          "reps": null,
+          "sets": "2",
+          "duration": "30 секунд на каждую ногу",
+          "weight": null
+        },
+        {
+          "name": "Глубокий выпад с поворотом",
+          "description": "Динамическое упражнение для растяжки бедер и подвижности позвоночника. В положении выпада поворачивайте корпус в сторону передней ноги.",
+          "imageUrl": "/images/individual_warmups/lunge_twist.png",
+          "reps": "10 на каждую сторону",
+          "sets": "2",
+          "duration": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Тренировка для начинающих",
+      "type": "mixed",
+      "suitableFor": ["male", "female"],
+      "experienceLevel": ["beginner"],
+      "goals": ["health", "weightLoss", "muscleGain"],
+      "contraindications": [],
+      "description": "Базовая тренировка для новичков, которые только начинают заниматься фитнесом. Комплекс простых и эффективных упражнений для всего тела.",
+      "exercises": [
+        {
+          "name": "Приседания с опорой",
+          "description": "Облегченный вариант приседаний. Используйте стул или другую опору для поддержки и балансировки во время приседания.",
+          "imageUrl": "/images/individual_warmups/assisted_squats.png",
+          "reps": "10-12",
+          "sets": "2-3",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Отжимания от стены",
+          "description": "Облегченный вариант отжиманий для начинающих. Стоя на расстоянии от стены, наклонитесь к ней и выполняйте отжимания.",
+          "imageUrl": "/images/individual_warmups/wall_pushups.jpg",
+          "reps": "10-12",
+          "sets": "2-3",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Подъемы таза лежа",
+          "description": "Лежа на спине с согнутыми коленями, поднимайте таз вверх, напрягая ягодицы.",
+          "imageUrl": "/images/individual_warmups/basic_bridge.png",
+          "reps": "10-12",
+          "sets": "2-3",
+          "duration": null,
+          "weight": null
+        },
+        {
+          "name": "Марш на месте",
+          "description": "Простое кардио-упражнение. Шагайте на месте, высоко поднимая колени.",
+          "imageUrl": "/images/individual_warmups/marching.png",
+          "reps": null,
+          "sets": "2-3",
+          "duration": "30-60 секунд",
+          "weight": null
+        },
+        {
+          "name": "Разведение рук в стороны",
+          "description": "Упражнение для плеч и верхней части спины. Стоя, разводите руки в стороны до уровня плеч.",
+          "imageUrl": "/images/individual_warmups/lateral_raises.png",
+          "reps": "10-12",
+          "sets": "2-3",
+          "duration": null,
+          "weight": "Очень легкий или без веса"
+        },
+        {
+          "name": "Планка на коленях",
+          "description": "Облегченный вариант планки. Удерживайте позицию планки, но с коленями на полу.",
+          "imageUrl": "/images/individual_warmups/knee_plank.png",
+          "reps": null,
+          "sets": "2-3",
+          "duration": "15-30 секунд",
+          "weight": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+.gym-slider {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  margin-bottom: 50px;
+}
+
+.slider-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+}
+
+.slider-controls {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.slider-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.prev-btn {
+  left: 30px;
+}
+
+.next-btn {
+  right: 30px;
+}
+
+.more-info-btn {
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  width: 250px;
+  padding: 12px;
+  background-color: #000;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 20;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.more-info-btn:hover {
+  background-color: white;
+  color: black;
+  transform: translateX(-50%) scale(1.05);
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.dot {
+  height: 10px;
+  width: 30px;
+  background-color: #bbb;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #000;
+}
