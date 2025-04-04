@@ -72,7 +72,6 @@
   transform: translateX(-50%) scale(1.05);
 }
 
-/* Expanded workout details */
 .workout-expanded {
   margin-top: 30px;
   animation: fadeIn 0.5s ease;

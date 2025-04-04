@@ -65,38 +65,32 @@ const Individual_Warmups = () => {
       return;
     }
 
-    // Filter workouts based on form data
     let filteredWorkouts = [...workouts];
 
-    // Filter by gender
     if (formData.gender) {
       filteredWorkouts = filteredWorkouts.filter((workout) =>
         workout.suitableFor.includes(formData.gender)
       );
     }
 
-    // Filter by experience level
     if (formData.experience) {
       filteredWorkouts = filteredWorkouts.filter((workout) =>
         workout.experienceLevel.includes(formData.experience)
       );
     }
 
-    // Filter by workout goal
     if (formData.workoutGoal) {
       filteredWorkouts = filteredWorkouts.filter((workout) =>
         workout.goals.includes(formData.workoutGoal)
       );
     }
 
-    // Filter by workout type
     if (formData.workoutType) {
       filteredWorkouts = filteredWorkouts.filter(
         (workout) => workout.type === formData.workoutType
       );
     }
 
-    // Calculate BMI and adjust workouts if needed
     if (formData.height && formData.weight) {
       const heightInMeters = parseInt(formData.height) / 100;
       const bmi = parseInt(formData.weight) / (heightInMeters * heightInMeters);
@@ -114,17 +108,14 @@ const Individual_Warmups = () => {
       }
     }
 
-    // Filter by blood pressure concerns
     if (formData.bloodPressure === "high") {
       filteredWorkouts = filteredWorkouts.filter(
         (workout) => !workout.contraindications.includes("high blood pressure")
       );
     }
 
-    // Select the appropriate number of workouts
     const workoutCount = parseInt(formData.workoutCount) || 0;
 
-    // If we don't have enough workouts, repeat some to fill the count
     let finalWorkouts = [];
     if (filteredWorkouts.length > 0) {
       for (let i = 0; i < workoutCount; i++) {
@@ -137,7 +128,6 @@ const Individual_Warmups = () => {
     setExpandedWorkout(null);
   };
 
-  // Toggle workout expansion
   const toggleWorkout = (index) => {
     setExpandedWorkout(expandedWorkout === index ? null : index);
   };

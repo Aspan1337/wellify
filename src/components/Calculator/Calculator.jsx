@@ -61,6 +61,7 @@ const Calculator = () => {
     const height = parseFloat(formData.height);
     const age = parseFloat(formData.age);
 
+    // Формула Миффлина-Сан Жеора
     if (formData.gender === "male") {
       return Math.round(10 * weight + 6.25 * height - 5 * age + 5);
     } else {

@@ -89,7 +89,6 @@ const FeedbackModal = ({ onClose }) => {
         message: "",
       });
 
-      // Close modal after successful submission after a short delay
       setTimeout(() => {
         onClose();
       }, 2000);
@@ -104,7 +103,6 @@ const FeedbackModal = ({ onClose }) => {
     }
   };
 
-  // Prevent click inside modal from closing it
   const handleModalClick = (e) => {
     e.stopPropagation();
   };
